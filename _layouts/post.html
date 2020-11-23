@@ -1,14 +1,20 @@
 ---
 layout: interior
 ---
-<h1>{{ page.title }}</h1>
+<section class="post-title-container">
+  <div class="post-title">
+    <h1>{{ page.title }}</h1>
 
-<p>
-  {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
-  {% endif %}
-</p>
-
-{{ content }}
+    <p>
+      {{ page.date | date_to_string }}
+      {% assign author = site.authors | where: 'short_name', page.author | first %}
+      {% if author %}
+        - <a href="{{ author.url }}">{{ author.name }}</a>
+      {% endif %}
+    </p>
+    <img src="/assets/img/{{ page.image }}">
+  </div>
+</section>
+<main>
+  {{ content }}
+</main>
