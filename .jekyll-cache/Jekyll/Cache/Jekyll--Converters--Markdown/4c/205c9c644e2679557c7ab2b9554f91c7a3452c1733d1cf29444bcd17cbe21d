@@ -1,0 +1,20 @@
+I"¨<h3 id="about">About</h3>
+<p>Open your repository in Atom and then open up your main <strong>index.html</strong> file and CSS file associated with it by double clicking on the files in the tree view.</p>
+<h5 id="notes-"><button>Notes <i class="fas fa-long-arrow-alt-down"></i></button></h5>
+
+<h3 id="presenters">Presenters</h3>
+<section class="presenter-container-even">
+  <article>
+    <p><img src="/assets/img/dummy-screenshot_01.png" alt="Change this file" title="please change me" /></p>
+    <h4 id="cem-eskinazi">Cem Eskinazi</h4>
+    <p>Really the main focus here is the CSS file but we might want to reference what is happening in the HTML file so it is worth having them both open. Your HTML file should be set up similarly to the screenshot below.</p>
+  </article>
+
+  <article>
+    <p><img src="/assets/img/dummy-screenshot_01.png" alt="Change this file" title="please change me" /></p>
+    <h4 id="kelly-walters">Kelly Walters</h4>
+    <p>Really the main focus here is the CSS file but we might want to reference what is happening in the HTML file so it is worth having them both open. Your HTML file should be set up similarly to the screenshot below.</p>
+  </article>
+
+</section>
+:ET

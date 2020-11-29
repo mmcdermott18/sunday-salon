@@ -14,6 +14,7 @@ title: Sunday Salon
         <!-- <h2><a href="{{ post.url }}">#{{ post.number }} &ndash; {{ post.title }}</a>&nbsp;<span class="date">{{ post.date | date: "%m.%d.%Y"}}</h2> -->
         <h2>#{{ post.number }} &ndash; {{ post.title }}&nbsp;<span class="date">{{ post.date | date: "%m.%d.%Y"}}</h2>
         <p>{{ post.description }}</p>
+        <a href="{{ post.url }}"><button class="fom-button">Find Out More</button></a>
         <a href="/register"><button>{{ post.register }}</button></a>
       </article>
       {% endif %}

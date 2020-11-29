@@ -1,7 +1,0 @@
-I"Q<h3 id="step-1-open-your-repository-and-files"><span id="step1">Step 1: Open Your Repository and Files</span></h3>
-<p>Open your repository in Atom and then open up your main <strong>index.html</strong> file and CSS file associated with it by double clicking on the files in the tree view.</p>
-
-<p>Really the main focus here is the CSS file but we might want to reference what is happening in the HTML file so it is worth having them both open. Your HTML file should be set up similarly to the screenshot below.</p>
-
-<p><img src="/assets/img/t7/step1.png" alt="HTML file" title="Step 1" /></p>
-:ET

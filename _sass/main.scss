@@ -133,11 +133,16 @@ main, header, .footer-contain {
 main {
   margin: 100px auto;
 }
+main img {
+  width: 100%;
+}
 article {
   margin: 0 0 50px;
 }
 header {
   margin: 40px auto 0;
+  padding-bottom: 40px;
+  display: flow-root;
 }
 .interior {
   margin: 50px auto 0;
@@ -164,7 +169,7 @@ footer {
   top: 50px;
 }
 
-// header & nav styles
+// nav styles
 nav {
   width: 100%;
   margin: 0;
@@ -258,6 +263,9 @@ h2 span.date {
   color: $primary-color;
   position: relative;
 }
+.post-title h2 {
+  color: $light-color;
+}
 h3 {
   font: 700 2rem/1 $display-font;
   text-transform: uppercase;
@@ -302,6 +310,9 @@ button#menu-icon {
 button#menu-icon:hover {
   background-color: rgba(0,0,0,0);
 }
+.fom-button {
+  margin-right: 25px;
+}
 footer button {
   border-color: $dark-color;
   transition: .5s background-color ease, .5s color ease;
@@ -324,8 +335,14 @@ a:hover {
 a:active {
   text-shadow: $secondary-color 2px 2px 2px;
 }
-
-
+a.prev {
+  float: left;
+  text-decoration: none;
+}
+a.next {
+  float: right;
+  text-decoration: none;
+}
 
 // details
 .line-through {
@@ -360,7 +377,7 @@ a:active {
 .head-line {
   border-bottom: 5px solid $primary-color;
   position: relative;
-  width: 20%;
+  width: 10%;
   height: 20px;
   float: left;
   margin: 0 25px;
@@ -467,6 +484,9 @@ a:active {
   .contain {
     width: 50vw;
   }
+  .interior .contain {
+    width: 90vw;
+  }
   .footer-contain {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 25px;
@@ -520,46 +540,104 @@ a:active {
   }
 }
 @media only screen and (min-width: 1280px) {
-   .archive {
-     grid-template-columns: repeat(3, 1fr);
-     grid-gap: 25px;
-   }
-   .footer-contain {
-     grid-template-columns: 66% 33%;
-     grid-gap: 25px;
-   }
+  .archive {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+  }
+  .footer-contain {
+    grid-template-columns: 66% 33%;
+    grid-gap: 25px;
+  }
 
-   //post styles desktop
-   .post-title-container {
-     background-color: $primary-color;
-     padding-top: 50px;
-     padding-bottom: 50px;
-   }
-   .post-title {
-     width: 80vw;
-     margin: 0 auto;
-     display: grid;
-     grid-template-columns: 1fr 2fr;
-     grid-template-rows: repeat(3, 1fr);
-     grid-column-gap: 20px;
-     grid-row-gap: 0px;
-   }
+  //post styles desktop
+  .post-title-container {
+    background-color: $primary-color;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .post-title {
+    width: 80vw;
+    height: 400px;
+    margin: 0 auto;
+    // display: grid;
+    // grid-template-columns: 1fr 2fr;
+    // grid-template-rows: repeat(3, 1fr);
+    // grid-column-gap: 20px;
+    // grid-row-gap: 0px;
+    position: relative;
+  }
+  .post-title h2 {
+    // grid-area: 3 / 1 / 4 / 3;
+  }
+  .post-title h6 {
+    // grid-area: 2 / 1 / 3 / 2;
+  }
+  .post-title img {
+    // grid-area: 1 / 2 / 4 / 3;
+    z-index: 1;
+    width: 100%;
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
+  }
+  .post-title-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 800px;
+    height: 400px;
+    background: no-repeat center center;
+    background-size: contain;
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
+  }
+  .post-text {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+  }
+  .presenter-container-even, .presenter-container-odd, .presenter-container-single {
+    grid-gap: 25px;
+    display: grid;
+  }
+  .presenter-container-even {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .presenter-container-odd {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .presenter-container-single {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .presenter-even, .presenter-odd {
+    margin: 12.5px;
+    flex-grow: 0;
+  }
+  .post .intro-material {
+    grid-area: 1 / 1 / 2 / 7;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0 25px;
+    grid-template-areas:
+      "text text text text empty button";
+    margin: 0 0 25px 0;
+  }
+  .intro-text p {
+    margin-bottom: 0;
+  }
+  .post .intro-material .intro-text {
+    grid-area: text;
+  }
+  .post .intro-material .intro-button {
+    grid-area: button;
+    align-self: end;
+  }
+  .intro-button button {
+    width: 100%;
+    text-align: center;
+  }
+}
 
-   .post-title h1 {
-     grid-area: 3 / 1 / 4 / 3;
-   }
-
-   .post-title p {
-     grid-area: 2 / 1 / 3 / 2;
-   }
-   .post-title img {
-     grid-area: 1 / 2 / 4 / 3;
-     z-index: 1;
-     width: 100%;
-     filter: grayscale(100%);
-     mix-blend-mode: multiply;
-   }
- }
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
