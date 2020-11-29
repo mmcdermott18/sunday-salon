@@ -1,8 +1,8 @@
 <div class="PageNavigation">
   {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}"><i class="fas fa-long-arrow-alt-left"></i>&ensp;#{{page.previous.number}} &mdash; {{page.previous.title}}</a>
+    <a class="prev" href="{{page.previous.url | relative_url}}"><i class="fas fa-long-arrow-alt-left"></i>&ensp;#{{page.previous.number}} &mdash; {{page.previous.title}}</a>
   {% endif %}
   {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">#{{page.next.number}} &mdash; {{page.next.title}}&ensp;<i class="fas fa-long-arrow-alt-right"></i></a>
+    <a class="next" href="{{page.next.url | relative_url}}">#{{page.next.number}} &mdash; {{page.next.title}}&ensp;<i class="fas fa-long-arrow-alt-right"></i></a>
   {% endif %}
 </div>

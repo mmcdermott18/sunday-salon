@@ -1,4 +1,4 @@
-permalink: /:slug
+permalink: /:categories/:title/
 future: true
 collections:
   authors:
