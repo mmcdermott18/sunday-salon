@@ -496,8 +496,8 @@ a.next {
 .line-through h4 span {
   position: relative;
   top: 0px;
-  left: 100px;
-  padding: 0 25px;
+  left: 25px;
+  padding: 0 10px;
   background-color: $light-color;
 }
 .spin {
@@ -628,6 +628,10 @@ a.next {
   .archive {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 25px;
+  }
+  .line-through h4 span {
+    left: 100px;
+    padding: 0 25px;
   }
 }
 @media only screen and (min-width: 1024px) {
