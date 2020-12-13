@@ -117,7 +117,7 @@ $display-font: 'Rubik', sans-serif;
 $text-font: 'Rubik', sans-serif;
 
 
-.primary {color: $primary-color;}
+.primary {color: $light-color;}
 // main styles
 html {
   font-family: $text-font;
@@ -142,8 +142,14 @@ article {
 }
 header {
   margin: 50px auto 0;
-  padding-bottom: 40px;
+  padding: 0 0 40px;
   display: flow-root;
+}
+header.h-home {
+  margin: 0;
+  padding: 50px 10vw 40px;
+  display: flow-root;
+  background-color: $primary-color;
 }
 .interior {
   margin: 50px auto 0;
@@ -246,10 +252,13 @@ nav .hamburger:hover {
 }
 #menu-icon {
   position: absolute;
-  top: 61px;
+  top: 55px;
   right: 10vw;
   z-index: 200;
   padding: 0;
+}
+.h-home .hamburger-inner, .h-home .hamburger-inner::before, .h-home .hamburger-inner::after {
+  background-color: $light-color;
 }
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   background-color: $primary-color;
@@ -305,10 +314,14 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+h1.home {
+  font: 900 3rem/1 $display-font;
+  margin-right: 35px;
+}
 h1 span.asterisks {
-  // font-size: 5rem;
-  color: $primary-color;
+  color: $light-color;
   position: relative;
+  font-weight: 700;
   // top: -4rem;
 }
 h1 span.asterisks:hover {
@@ -419,6 +432,7 @@ a.next {
   border-bottom: 3px solid $dark-color;
   font: normal 1rem/1 $text-font;
   padding: 0;
+  border-radius: 0;
 }
 .f-field input:focus {
   outline: none;
@@ -524,6 +538,7 @@ a.next {
   100% {transform: rotate(360deg);}
 }
 
+
  /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -605,13 +620,24 @@ a.next {
 .clearfix:after {
   clear: both;
 }
-
+.no-wrap {
+  white-space: nowrap;
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (min-width: 400px) {
+  h1.home {
+    font: 900 4rem/1 $display-font;
+  }
+  #menu-icon {
+    top: 61px;
+  }
+}
+
 @media only screen and (min-width: 700px) {
   .footer-contain {
     grid-template-columns: repeat(2, 1fr);
@@ -627,7 +653,7 @@ a.next {
   }
   .archive {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 25px;
+    grid-gap: 25px 50px;
   }
   .line-through h4 span {
     left: 100px;
@@ -640,7 +666,7 @@ a.next {
     width: 80vw;
   }
   main {
-    margin: 100px auto;
+    margin: 50px auto;
   }
   .contain {
     width: 100%;
@@ -650,6 +676,15 @@ a.next {
   }
   .interior .contain {
     width: 90vw;
+  }
+  header.h-home {
+    background-color: $light-color;
+  }
+  .h-home .hamburger-inner, .h-home .hamburger-inner::before, .h-home .hamburger-inner::after {
+    background-color: $primary-color;
+  }
+  h1 span.asterisks {
+    color: $primary-color;
   }
   .footer-contain {
     grid-template-columns: repeat(3, 1fr);
@@ -709,6 +744,7 @@ a.next {
   // type styles
   h1.home {
     font: 900 10rem/1 $display-font;
+    margin-top: -12px;
   }
   .interior h1 {
     float: left;
@@ -733,13 +769,11 @@ a.next {
   //details
   #asterisk-hover {
     position: absolute;
-    top: 200px;
-    right: 10vw;
+    top: 250px;
+    left: calc(10vw + 577px);
   }
   .about {
     width: calc(30vw - 25px);
-    margin-left: 25px;
-    float: left;
   }
   .about-hide {
     display: none;
@@ -757,6 +791,9 @@ a.next {
   // helper classes
   .desktop-only {
     display: inline-block;
+  }
+  .primary {
+    color: $primary-color;
   }
 }
 @media only screen and (min-width: 1280px) {
