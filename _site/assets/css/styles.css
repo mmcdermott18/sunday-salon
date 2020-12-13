@@ -44,7 +44,7 @@ main img { width: 100%; }
 
 article { margin: 0 0 50px; }
 
-header { margin: 50px auto 0; padding: 0 0 40px; display: flow-root; }
+header { margin: 25px auto 0; padding: 0 0 40px; display: flow-root; }
 
 header.h-home { margin: 0; padding: 50px 10vw 40px; display: flow-root; background-color: #15F1FF; }
 
