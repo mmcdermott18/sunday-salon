@@ -530,6 +530,10 @@ a.next {
   width: 40%;
   margin: 15px 0 5px;
 }
+::selection {
+    background: $secondary-color;
+    text-shadow: none;
+}
 
 //animations {
 @keyframes spinner {
