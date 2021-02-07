@@ -146,7 +146,7 @@ header {
   display: flow-root;
 }
 header.h-home {
-  margin: 0;
+  margin: 0 auto;
   padding: 50px 10vw 40px;
   display: flow-root;
   background-color: $primary-color;
@@ -390,6 +390,28 @@ button#menu-icon:hover {
 }
 .fom-button {
   margin-right: 25px;
+}
+.cs-button, .cs-button:hover {
+  border: 5px solid $primary-color;
+  border-radius: 5px;
+  font: 700 1rem/1 $text-font;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  padding: 10px 18px;
+  background-color: $primary-color;
+  color: $dark-color;
+  cursor: default;
+}
+.full-button, .full-button:hover {
+  border: 5px solid $secondary-color;
+  border-radius: 5px;
+  font: 700 1rem/1 $text-font;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  padding: 10px 18px;
+  background-color: $light-color;
+  color: $dark-color;
+  cursor: default;
 }
 
 //link styles

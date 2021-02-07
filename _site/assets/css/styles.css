@@ -5,7 +5,7 @@
 html { color: #222; font-size: 1em; line-height: 1.4; }
 
 /* Remove text-shadow in selection highlight: https://twitter.com/miketaylr/status/12228805301 Vendor-prefixed and regular ::selection selectors cannot be combined: https://stackoverflow.com/a/16982510/7133471 Customize the background color to match your design. */
-::selection { background: #b3d4fc; text-shadow: none; }
+::selection { text-shadow: none; }
 
 /* A better looking default horizontal rule */
 hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
@@ -46,7 +46,7 @@ article { margin: 0 0 50px; }
 
 header { margin: 25px auto 0; padding: 0 0 40px; display: flow-root; }
 
-header.h-home { margin: 0; padding: 50px 10vw 40px; display: flow-root; background-color: #15F1FF; }
+header.h-home { margin: 0 auto; padding: 50px 10vw 40px; display: flow-root; background-color: #15F1FF; }
 
 .interior { margin: 50px auto 0; }
 
@@ -156,6 +156,10 @@ button#menu-icon:hover { background-color: rgba(0, 0, 0, 0); }
 
 .fom-button { margin-right: 25px; }
 
+.cs-button, .cs-button:hover { border: 5px solid #15F1FF; border-radius: 5px; font: 700 1rem/1 "Rubik", sans-serif; text-transform: uppercase; letter-spacing: .5px; padding: 10px 18px; background-color: #15F1FF; color: #111111; cursor: default; }
+
+.full-button, .full-button:hover { border: 5px solid #f06449; border-radius: 5px; font: 700 1rem/1 "Rubik", sans-serif; text-transform: uppercase; letter-spacing: .5px; padding: 10px 18px; background-color: white; color: #111111; cursor: default; }
+
 a, a:link, a:visited { color: #111111; text-decoration: underline; }
 
 .int a, .int a:link, .int a:visited { text-decoration: none; }
@@ -210,6 +214,8 @@ a.next { float: right; text-decoration: none; }
 .interior h4 { margin-top: 12px; float: left; }
 
 .head-line { border-bottom: 5px solid #15F1FF; width: 40%; margin: 15px 0 5px; }
+
+::selection { background: #f06449; text-shadow: none; }
 
 @keyframes spinner { 0% { transform: rotate(0); }
   80% { transform: rotate(0); }
