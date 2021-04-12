@@ -1,0 +1,38 @@
+I"�<section class="intro-material">
+  <div class="intro-text">
+    <h3 id="about">About</h3>
+    <p>Rather than formal ‘presentations’ each attendee will have the option to share something they’re working on or thinking about (if they wish to).</p>
+  </div>
+  <div class="intro-button">
+<a href="https://docs.google.com/document/d/1ggII5oVAx-0o0uwQbkPtqQJ7kc36WL325mYexzEnBFo/edit?usp=sharing"><button>Notes&ensp;<i class="fas fa-long-arrow-alt-down"></i></button></a>
+</div>
+</section>
+
+<h3 id="presenters">Presenters</h3>
+<section class="presenter-container-odd">
+  <article>
+    <p><img src="/assets/img/lMaione.png" alt="Lisa Maione" title="Lisa Maione" /></p>
+    <h4 id="lisa-maione">Lisa Maione</h4>
+    <p>Lisa J. Maione is an art director, designer, and educator. Born in Japan and raised in the U.S., Lisa cut her teeth at New York studios including 2×4, Pentagram, mgmt. design and Wolff Olins, and later at the publication, Metropolis. In her independent design and art practice, clients range from architects to community organizations, artists, and publishers among others. Since 2008, she has taught undergraduate and graduate design courses at Parsons School of Design, Queens College City University of New York and Oklahoma State University. Lisa holds a BFA and MFA in Graphic Design from Rhode Island School of Design (RISD) and a post-graduate certificate in Typeface Design from Type@Cooper NYC.</p>
+  </article>
+
+  <article>
+    <p><img src="/assets/img/dummy-headshot_01.png" alt="Change this file" title="please change me" /></p>
+    <h4 id="andrew-leclair">Andrew LeClair</h4>
+    <p>Andrew LeClair is a graphic designer in New York, NY, working independently on identity, editorial, and interactive projects for clients in publishing, education, the arts, and architecture.</p>
+
+    <p>He teaches at Parsons The New School for Design and Rhode Island School of Design. Previously, Andrew collaborated with Adam Lucas as LeClair Lucas and was a designer at Project Projects. He holds degrees from RISD and Swarthmore College.</p>
+  </article>
+
+  <article>
+    <p><img src="/assets/img/dummy-headshot_02.png" alt="Change this file" title="please change me" /></p>
+    <h4 id="kyle-green">Kyle Green</h4>
+    <p>Kyle Green is an Independent graphic designer and educator in Chicago. Kyle was most recently a Senior Designer at Thirst where he collaborated with the partners on a range of motion, print and experiential projects for clients such as John Ronan Architects, The Chicago Symphony Orchestra, and University of Illinois at Chicago. Prior to moving to Chicago, he worked at Spagnola and Associates in New York City which specializes in large-scale exhibits and environmental design projects.</p>
+
+    <p>Kyle’s independent research examines the threshold between opposing spaces and how juxtaposing content from each space can inform narratives. His work has been featured in various publications such as Communication Arts and eg Magazine.</p>
+
+    <p>Kyle teaches at DePaul University and The School of the Art Institute of Chicago. He holds an MFA in Graphic Design from the Rhode Island School of Design and a BFA from Western Michigan University.</p>
+  </article>
+
+</section>
+:ET

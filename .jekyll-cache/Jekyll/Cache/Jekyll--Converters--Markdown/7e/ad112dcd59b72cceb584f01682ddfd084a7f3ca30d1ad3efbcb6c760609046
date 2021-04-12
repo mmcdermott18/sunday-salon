@@ -1,0 +1,36 @@
+I"�<section class="intro-material">
+  <div class="intro-text">
+    <h3 id="about">About</h3>
+    <p>This salon will be loosely themed around exhibitions. We’ll be joined by Kyle Green, Rebecca Leffell Koren, and Chris Hamamoto, who will each share a perspective on exhibitions as it relates to their practices as designer-educator-researchers.</p>
+  </div>
+  <div class="intro-button">
+<a href="https://docs.google.com/document/d/1p9MliwpWaWGfZX_4z9k9hxbcgTsGjeGKio_oDGJJlhI/edit?usp=sharing"><button>Notes&ensp;<i class="fas fa-long-arrow-alt-down"></i></button></a>
+</div>
+</section>
+
+<h3 id="presenters">Presenters</h3>
+<section class="presenter-container-odd">
+  <article>
+    <p><img src="/assets/img/kGreen.png" alt="Kyle Green" title="Kyle Green" /></p>
+    <h4 id="kyle-green">Kyle Green</h4>
+    <p>Kyle Green is an Independent graphic designer and educator in Chicago. Kyle was most recently a Senior Designer at Thirst where he collaborated with the partners on a range of motion, print and experiential projects for clients such as John Ronan Architects, The Chicago Symphony Orchestra, and University of Illinois at Chicago. Prior to moving to Chicago, he worked at Spagnola and Associates in New York City which specializes in large-scale exhibits and environmental design projects.</p>
+
+    <p>Kyle’s independent research examines the threshold between opposing spaces and how juxtaposing content from each space can inform narratives. His work has been featured in various publications such as Communication Arts and eg Magazine.</p>
+
+    <p>Kyle teaches at DePaul University and The School of the Art Institute of Chicago. He holds an MFA in Graphic Design from the Rhode Island School of Design and a BFA from Western Michigan University.</p>
+  </article>
+
+  <article>
+    <p><img src="/assets/img/cHamamoto.png" alt="Chris Hamamoto" title="Chris Hamamoto" /></p>
+    <h4 id="chris-hamamoto">Chris Hamamoto</h4>
+    <p>Christopher Hamamoto is a designer, and educator based in Berkeley, CA. He holds an MFA from Rhode Island School of Design and is an assistant professor at California College of the Arts. In addition to teaching, he maintains an independent practice pursuing his interest in how automation and algorithms effects social relationships and aesthetics. He has shown work and lectured internationally, and has been recognized by institutions such as Printed Matter, STA Chicago, the Walker Art Center, Hongik University, and Yerba Buena Center for the Arts.</p>
+  </article>
+
+  <article>
+    <p><img src="/assets/img/dummy-headshot_01.png" alt="Rebecca Leffell Koren" title="Rebecca Leffell Koren" /></p>
+    <h4 id="rebecca-leffell-koren">Rebecca Leffell Koren</h4>
+    <p>Becca Leffell Koren is a multidisciplinary designer and educator with a focus in publication, exhibition, and systems design. She collaborates with clients in the fields of art, culture, architecture, and education. Previously she has worked for the Israel Museum, Jerusalem, the RISD Museum (Providence, Rhode Island), and This Is Our Work (New York). She holds an MFA in graphic design from the Rhode Island School of Design and a BFA in communication design from the Sam Fox School of Design &amp; Visual Arts at Washington University in St. Louis. Both her client work and research are type-driven with a particular focus on the book form, and blurring the line between flatness and dimensionality in work for print, space, and screen.</p>
+  </article>
+
+</section>
+:ET

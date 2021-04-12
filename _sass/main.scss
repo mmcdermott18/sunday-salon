@@ -362,7 +362,11 @@ h6 {
   font-weight: 700;
 }
 p {
-  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+p img {
+  margin-bottom: 15px;
 }
 .big-number p {
   font: 900 10rem/1 $display-font;
@@ -739,7 +743,7 @@ a.next {
     background: no-repeat center right;
     background-size: contain;
   }
-  .presenter-container-even, .presenter-container-odd, .presenter-container-single {
+  .presenter-container-even, .presenter-container-odd, .presenter-container-single article {
     grid-gap: 25px;
     display: grid;
   }
@@ -749,8 +753,17 @@ a.next {
   .presenter-container-odd {
     grid-template-columns: repeat(3, 1fr);
   }
-  .presenter-container-single {
-    grid-template-columns: repeat(1, 1fr);
+  .presenter-container-single article {
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 0;
+  }
+  .presenter-container-single article p:first-of-type {
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
+  .presenter-container-single article h4, .presenter-container-single article p {
+    grid-column-start: 1;
+    grid-column-end: 5;
   }
   .presenter-even, .presenter-odd {
     margin: 12.5px;
