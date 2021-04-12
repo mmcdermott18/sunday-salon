@@ -168,6 +168,10 @@ a:hover { text-decoration: none; }
 
 a:active { text-shadow: #f06449 2px 2px 2px; }
 
+.post article a, .post article a:link, .post article a:visited { color: #111111; text-decoration: none; border-bottom: 2px solid #15F1FF; }
+
+.post article a:hover { color: #15F1FF; border-bottom: 2px solid #15F1FF; }
+
 a.prev { float: left; text-decoration: none; }
 
 a.next { float: right; text-decoration: none; }
@@ -206,6 +210,8 @@ a.next { float: right; text-decoration: none; }
 .line-through { border-bottom: 5px solid #15F1FF; position: relative; width: 100%; height: 10px; margin: 0 0 50px; }
 
 .line-through h4 span { position: relative; top: 0px; left: 25px; padding: 0 10px; background-color: white; }
+
+.recent { margin-top: 100px; }
 
 .spin { display: inline-block; transform-origin: 18px 24px; }
 

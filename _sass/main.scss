@@ -428,6 +428,15 @@ a:hover {
 a:active {
   text-shadow: $secondary-color 2px 2px 2px;
 }
+.post article a, .post article a:link, .post article a:visited {
+  color: $dark-color;
+  text-decoration: none;
+  border-bottom: 2px solid $primary-color;
+}
+.post article a:hover {
+  color: $primary-color;
+  border-bottom: 2px solid $primary-color;
+}
 a.prev {
   float: left;
   text-decoration: none;
@@ -535,6 +544,9 @@ a.next {
   left: 25px;
   padding: 0 10px;
   background-color: $light-color;
+}
+.recent {
+  margin-top: 100px;
 }
 .spin {
   display: inline-block;

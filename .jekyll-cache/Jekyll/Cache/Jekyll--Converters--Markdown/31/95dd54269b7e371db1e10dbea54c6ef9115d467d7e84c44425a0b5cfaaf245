@@ -1,0 +1,35 @@
+I"·<section class="intro-material">
+  <div class="intro-text">
+    <h3 id="about">About</h3>
+    <p>This text needs to be written.</p>
+  </div>
+  <div class="intro-button">
+<a href="#"><button>Notes&ensp;<i class="fas fa-long-arrow-alt-down"></i></button></a>
+</div>
+</section>
+
+<h3 id="panelists">Panelists</h3>
+<section class="presenter-container-odd">
+  <article>
+    <p><img src="/assets/img/dummy-headshot_01.png" alt="Change this File" title="change this file" /></p>
+    <h4 id="liat-berdugo">Liat Berdugo</h4>
+    <p>Liat Berdugo is an artist and writer whose work investigates embodiment, labor, and militarization in relation to capitalism, technological utopianism, and the Middle East. Her work has been exhibited and screened at Yerba Buena Center for the Arts (San Francisco), MoMA PS1 (New York), Transmediale (Berlin), V2_Lab for the Unstable Media (Rotterdam), and The Wrong Biennale (online), among others. Her writing appears in Rhizome, Temporary Art Review, Real Life, Places, and The Institute for Network Cultures, among others, and her latest book is <a href="https://www.bloomsbury.com/us/the-weaponized-camera-in-the-middle-east-9781838602710/">The Weaponized Camera in the Middle East</a> (Bloomsbury/I.B.Tauris,  2021). She is one half of the art collective, <a href="https://anxioustomake.ga/">Anxious to Make</a>, and is the co-founder of the <a href="http://www.livingroomlightexchange.com/">Living Room Light Exchange</a>, a monthly new media art series. Berdugo received an MFA from RISD and a BA from Brown University. She is currently an assistant professor of Art + Architecture at the University of San Francisco. Berdugo lives and works in Oakland, CA.</p>
+  </article>
+
+  <article>
+    <p><img src="/assets/img/dummy-headshot_01.png" alt="Change this File" title="change this file" /></p>
+    <h4 id="meaghan-dee">Meaghan Dee</h4>
+    <p>Meaghan Dee is an Associate Professor in the Graphic Design Program. She received her BFA in Graphic Design from the University of Illinois at Champaign-Urbana and her MFA in Design from Virginia Commonwealth University. Prior to joining Virginia Tech, Meaghan worked professionally as a designer for the Architecture and Design firm, Marnell Companies, where she regularly collaborated with Architects, Interior Designers, and Industrial Designers on large-scale resorts. Her design focus is on branding, typography, editorial design, user-experience, and packaging. She regularly collaborates on Freelance Design projects and Grant research. Her work has been awarded nationally and internationally by the American Advertising Federation, the American Institute of Graphic Artists, Graphic Design U.S.A., Graphis, and Hiii Typography.</p>
+  </article>
+
+  <article>
+    <p><img src="/assets/img/dummy-headshot_01.png" alt="Change this File" title="change this file" /></p>
+    <h4 id="jonathan-hanahan">Jonathan Hanahan</h4>
+    <p>Jonathan Hanahan is a creative technologist and educator who loves the internet but is equally terrified by it.</p>
+
+    <p>He uses technology to critique technology. His speculative practice explores the physical, cultural, and social ramifications of digital experiences and the role technology plays in shaping our everyday realities. He makes Thick Interfaces. These are tools, devices, software, artifacts, websites, and videos that agitate the digital facade and reveal the complexity existing underneath the thin veneer of our devices.</p>
+
+    <p>Hanahan earned his BArch from Virginia Tech and his MFA from the Rhode Island School of Design. In addition to his studio practice, Hanahan is an assistant professor in the Sam Fox School of Design &amp; Visual Arts at Washington University in St. Louis, where he teaches creative coding, procedural process, and interaction design. He is also the co-founder and co-chair of <a href="https://samfoxfridays.com/">Fox Fridays</a>, an interdisciplinary workshop series encouraging experimentation with tools, processes, and technology.</p>
+  </article>
+</section>
+:ET
